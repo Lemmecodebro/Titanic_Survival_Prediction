@@ -11,25 +11,35 @@ The following files from the Kaggle Titanic dataset are used:
 - `train.csv` – Training data  
 - `test.csv` – Test data  
 - `gender_submission.csv` – Sample submission file  
-- `submission.csv` – Final model predictions for the test set  
+- `submission.csv` – Final model predictions for the test set
 
 ---
 
-## 📊 Workflow Overview
+## 📈 Workflow Overview
 
-### Exploratory Data Analysis (EDA)
+### 🔍 Exploratory Data Analysis (EDA)
 - Understanding data distributions and feature relationships
 
-### Data Preprocessing
+### 🧹 Data Preprocessing
 - Handling missing values  
 - Encoding categorical variables  
 - Feature selection
 
-### Model Development
-- Logistic Regression model building and training  
-- Testing on unseen test data  
+### ⚙️ Model Development
+- Building a Logistic Regression model  
+- Training on the cleaned dataset
+
+### 📊 Testing & Prediction
+- Applying the model on unseen test data  
 - Saving predictions to `submission.csv`
 
-### Model Evaluation
-- Accuracy and performance assessment  
-- Feature importance analysis and visualization
+### 🧪 Evaluation
+- Validating model performance on training data  
+- Calculating and visualizing feature importance
+
+---
+
+## ✅ Output
+
+- Final predictions are stored in `submission.csv`  
+- Feature importance is visualized to interpret which factors contributed most to survival
